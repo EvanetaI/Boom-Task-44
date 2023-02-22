@@ -1,4 +1,4 @@
-export default function Logo(props) {
+function Logo(props) {
     if(!props.type) props.type = "default"
 
     return (
@@ -7,3 +7,4 @@ export default function Logo(props) {
       </div>
     );
   }
+  export default Logo;
