@@ -1,10 +1,9 @@
-function Logo(props) {
-    if(!props.type) props.type = "default"
+export default function Logo({type}) {
+    if(!type) type = "default"
 
     return (
       <div>
-        {props.type === "default" ? <img src="/images/logo.svg"></img> : <img src="/images/logo-muted.svg"></img>}
+        {type === "muted" ? <img src="/images/logo-muted.svg"></img> : <img src="/images/logo.svg"></img>}
       </div>
     );
   }
-  export default Logo;
