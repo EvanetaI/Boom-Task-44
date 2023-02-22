@@ -3,7 +3,7 @@ export default function Logo(props) {
 
     return (
       <div>
-        {props.type === "default" ? <img src="/images/logo-muted.svg"></img> : <img src="/images/logo.svg"></img>}
+        {props.type === "default" ? <img src="/images/logo.svg"></img> : <img src="/images/logo-muted.svg"></img>}
       </div>
     );
   }
